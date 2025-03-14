@@ -28,5 +28,5 @@ def generate_user_list_pdf():
     # Enregistrez le fichier PDF
     pdf_canvas.save()
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     generate_user_list_pdf()
