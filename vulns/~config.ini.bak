@@ -1,0 +1,8 @@
+# config.ini
+
+[database]
+host = 8.2.12.85
+port = 8080
+name = prod
+user = admin
+password = RTgOpp984vbgs_$

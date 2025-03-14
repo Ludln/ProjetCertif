@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Vulnerability Dashboard</h1>
+    <a href="{{ url_for('logout') }}">Logout</a>
+    <h2>Number of Vulnerabilities by Category</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for category, count in category_counts %}
+            <tr>
+                <td>{{ category }}</td>
+                <td>{{ count }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h2>Number of Vulnerabilities by Score</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Score Range</th>
+                <th>Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for score, count in score_counts %}
+            <tr>
+                <td>{{ score }} - {{ score + 1 }}</td>
+                <td>{{ count }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h2>Most Recent Vulnerability</h2>
+    <p>
+        {% if latest_date %}
+            The most recent vulnerability was discovered on {{ latest_date }}.
+        {% else %}
+            No vulnerabilities found.
+        {% endif %}
+    </p>
+</body>
+</html>

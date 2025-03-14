@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Vulnerabilities</title>
+</head>
+<body>
+    <h1>All Vulnerabilities</h1>
+    <a href="{{ url_for('logout') }}">Logout</a>
+    <form method="GET" action="{{ url_for('view_all') }}">
+        <label for="category">Category:</label>
+        <input type="text" name="category" id="category" value="{{ request.args.get('category', '') }}">
+        <label for="min_score">Min Score:</label>
+        <input type="number" step="0.1" name="min_score" id="min_score" value="{{ request.args.get('min_score', '') }}">
+        <label for="max_score">Max Score:</label>
+        <input type="number" step="0.1" name="max_score" id="max_score" value="{{ request.args.get('max_score', '') }}">
+        <label for="sort">Sort By:</label>
+        <select name="sort" id="sort">
+            <option value="id">ID</option>
+            <option value="score">Score</option>
+            <option value="status">Status</option>
+            <option value="category">Category</option>
+            <option value="discovery_date">Discovery Date</option>
+        </select>
+        <button type="submit">Apply Filters</button>
+    </form>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Score</th>
+                <th>Location</th>
+                <th>Status</th>
+                <th>Discovery Date</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for vuln in vulnerabilities %}
+            <tr>
+                <td>{{ vuln.id }}</td>
+                <td>{{ vuln.score }}</td>
+                <td>{{ vuln.location }}</td>
+                <td>{{ vuln.status }}</td>
+                <td>{{ vuln.discovery_date }}</td>
+                <td>{{ vuln.category }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

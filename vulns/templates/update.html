@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Part</title>
+</head>
+<body>
+    <h1>Edit Part - {{ part.name }}</h1>
+    <form method="post" action="{{ url_for('update', id=part.id) }}">
+        <label for="score">Name:</label>
+        <input type="text" name="score" value="{{ vuln.score }}" required><br>
+        <label for="location">Name:</label>
+        <input type="text" name="location" value="{{ vuln.location }}" required><br>
+        <label for="status">Name:</label>
+        <input type="text" name="status" value="{{ vuln.status }}" required><br>
+
+        <!-- Add other fields as needed -->
+        <button type="submit">Save Changes</button>
+    </form>
+    <hr>
+    <h2>Materials</h2>
+    <form method="post" action="{{ url_for('edit_part', part_id=part.id) }}">
+
+        {% for material in materials %}
+            <label for="materials">{{ material }}:</label>
+            <input type="text" name="materials" value="{{ material }}" required><br>
+        {% endfor %}
+        <button type="submit">Save Changes</button>
+    </form>
+</body>
+</html>

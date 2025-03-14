@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <p>Logged in as: {{ session.get('user_id') }}</p>
+    <a href="{{ url_for('logout') }}">Logout</a>
+    <h2>All Vulnerabilities</h2>
+    <a href="{{ url_for('create') }}">Add New Vulnerability</a>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Score</th>
+                <th>Location</th>
+                <th>Status</th>
+                <th>Discovery Date</th>
+                <th>Category</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for vuln in vulnerabilities %}
+            <tr>
+                <td>{{ vuln.id }}</td>
+                <td>{{ vuln.score }}</td>
+                <td>{{ vuln.location }}</td>
+                <td>{{ vuln.status }}</td>
+                <td>{{ vuln.discovery_date }}</td>
+                <td>{{ vuln.category }}</td>
+                <td>
+                    <a href="{{ url_for('update', id=vuln.id) }}">Edit</a>
+                    <form action="{{ url_for('delete', id=vuln.id) }}" method="POST" style="display:inline;">
+                        <button type="submit">Delete</button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

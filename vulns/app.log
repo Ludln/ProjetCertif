@@ -1,0 +1,269 @@
+2025-01-21 00:30:26,572 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-01-21 00:30:26,572 - INFO: [33mPress CTRL+C to quit[0m
+2025-01-21 00:30:26,574 - INFO:  * Restarting with stat
+2025-01-21 00:30:26,861 - WARNING:  * Debugger is active!
+2025-01-21 00:30:26,869 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:30:37,804 - INFO: 127.0.0.1 - - [05/Jan/2025 00:30:37] "[32mGET / HTTP/1.1[0m" 302 -
+2025-01-21 00:30:37,834 - DEBUG: Incoming login request GET -> ImmutableMultiDict([]) 
+2025-01-21 00:30:37,850 - INFO: 127.0.0.1 - - [05/Jan/2025 00:30:37] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-01-21 00:30:37,881 - INFO: 127.0.0.1 - - [05/Jan/2025 00:30:37] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-01-21 00:30:37,883 - INFO: 127.0.0.1 - - [05/Jan/2025 00:30:37] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-01-21 00:30:37,897 - INFO: 127.0.0.1 - - [05/Jan/2025 00:30:37] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=7LlOXMRwhE1FmvOz9imB HTTP/1.1" 200 -
+2025-01-21 00:30:37,909 - INFO: 127.0.0.1 - - [05/Jan/2025 00:30:37] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-01-21 00:31:18,388 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-01-21 00:31:18,388 - INFO: [33mPress CTRL+C to quit[0m
+2025-01-21 00:31:18,390 - INFO:  * Restarting with stat
+2025-01-21 00:31:18,676 - WARNING:  * Debugger is active!
+2025-01-21 00:31:18,682 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:31:24,101 - INFO: 127.0.0.1 - - [05/Jan/2025 00:31:24] "[32mGET / HTTP/1.1[0m" 302 -
+2025-01-21 00:31:24,128 - DEBUG: Incoming login request GET -> ImmutableMultiDict([]) 
+2025-01-21 00:31:24,149 - INFO: 127.0.0.1 - - [05/Jan/2025 00:31:24] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-01-21 00:31:24,178 - INFO: 127.0.0.1 - - [05/Jan/2025 00:31:24] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-21 00:31:24,183 - INFO: 127.0.0.1 - - [05/Jan/2025 00:31:24] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-21 00:31:24,198 - INFO: 127.0.0.1 - - [05/Jan/2025 00:31:24] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=4gBFvnJh34E75jqwuIsr HTTP/1.1" 200 -
+2025-01-21 00:33:15,660 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 00:33:15,718 - INFO:  * Restarting with stat
+2025-01-21 00:33:16,071 - WARNING:  * Debugger is active!
+2025-01-21 00:33:16,076 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:34:45,320 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-01-21 00:34:45,321 - INFO: [33mPress CTRL+C to quit[0m
+2025-01-21 00:34:45,322 - INFO:  * Restarting with stat
+2025-01-21 00:34:45,612 - WARNING:  * Debugger is active!
+2025-01-21 00:34:45,618 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:34:54,568 - DEBUG: Incoming login request GET -> ImmutableMultiDict([]) 
+2025-01-21 00:34:54,590 - INFO: 127.0.0.1 - - [05/Jan/2025 00:34:54] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-01-21 00:34:54,635 - INFO: 127.0.0.1 - - [05/Jan/2025 00:34:54] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-21 00:34:54,636 - INFO: 127.0.0.1 - - [05/Jan/2025 00:34:54] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-21 00:34:54,650 - INFO: 127.0.0.1 - - [05/Jan/2025 00:34:54] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=Wc30jVxr2MVUVH1im5G8 HTTP/1.1" 200 -
+2025-01-21 00:34:54,665 - INFO: 127.0.0.1 - - [05/Jan/2025 00:34:54] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-21 00:36:49,244 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-01-21 00:36:49,244 - INFO: [33mPress CTRL+C to quit[0m
+2025-01-21 00:36:49,245 - INFO:  * Restarting with stat
+2025-01-21 00:36:49,520 - WARNING:  * Debugger is active!
+2025-01-21 00:36:49,525 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:36:53,615 - DEBUG: Incoming login request GET -> ImmutableMultiDict([]) 
+2025-01-21 00:36:53,639 - INFO: 127.0.0.1 - - [05/Jan/2025 00:36:53] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-01-21 00:36:53,693 - INFO: 127.0.0.1 - - [05/Jan/2025 00:36:53] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-21 00:36:53,694 - INFO: 127.0.0.1 - - [05/Jan/2025 00:36:53] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-21 00:36:53,710 - INFO: 127.0.0.1 - - [05/Jan/2025 00:36:53] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=qcrOIWvI4FXNIxMGvD7Q HTTP/1.1" 200 -
+2025-01-21 00:36:53,724 - INFO: 127.0.0.1 - - [05/Jan/2025 00:36:53] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-21 00:37:39,249 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-01-21 00:37:39,249 - INFO: [33mPress CTRL+C to quit[0m
+2025-01-21 00:37:39,250 - INFO:  * Restarting with stat
+2025-01-21 00:37:39,542 - WARNING:  * Debugger is active!
+2025-01-21 00:37:39,550 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:37:41,652 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-01-21 00:37:41,652 - INFO: [33mPress CTRL+C to quit[0m
+2025-01-21 00:37:41,653 - INFO:  * Restarting with stat
+2025-01-21 00:37:41,984 - WARNING:  * Debugger is active!
+2025-01-21 00:37:41,988 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:37:45,745 - DEBUG: Incoming login request GET -> ImmutableMultiDict([]) 
+2025-01-21 00:37:45,751 - INFO: 127.0.0.1 - - [05/Jan/2025 00:37:45] "GET /login HTTP/1.1" 200 -
+2025-01-21 00:37:45,801 - WARNING: Page not found: http://localhost:8080/favicon.ico
+2025-01-21 00:37:45,804 - INFO: 127.0.0.1 - - [05/Jan/2025 00:37:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-21 00:38:04,946 - DEBUG: Incoming login request POST -> ImmutableMultiDict([('username', 'toto'), ('password', 'toto')]) 
+2025-01-21 00:38:05,014 - INFO: 127.0.0.1 - - [05/Jan/2025 00:38:05] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-01-21 00:38:05,067 - INFO: 127.0.0.1 - - [05/Jan/2025 00:38:05] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-21 00:38:05,067 - INFO: 127.0.0.1 - - [05/Jan/2025 00:38:05] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-21 00:38:05,089 - INFO: 127.0.0.1 - - [05/Jan/2025 00:38:05] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=RQhsI9oGeLXI9IABKri0 HTTP/1.1" 200 -
+2025-01-21 00:38:05,123 - INFO: 127.0.0.1 - - [05/Jan/2025 00:38:05] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-21 00:38:12,885 - INFO: 127.0.0.1 - - [05/Jan/2025 00:38:12] "GET /debug HTTP/1.1" 200 -
+2025-01-21 00:38:20,840 - WARNING: Page not found: http://localhost:8080/date
+2025-01-21 00:38:20,841 - INFO: 127.0.0.1 - - [05/Jan/2025 00:38:20] "[33mGET /date HTTP/1.1[0m" 404 -
+2025-01-21 00:38:49,255 - INFO: 127.0.0.1 - - [05/Jan/2025 00:38:49] "GET /server_date HTTP/1.1" 200 -
+2025-01-21 00:39:13,456 - INFO: 127.0.0.1 - - [05/Jan/2025 00:39:13] "GET /server_date?format=ls HTTP/1.1" 200 -
+2025-01-21 00:39:25,284 - INFO: 127.0.0.1 - - [05/Jan/2025 00:39:25] "GET /server_date?format=;ls HTTP/1.1" 200 -
+2025-01-21 00:40:11,529 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 00:40:11,569 - INFO:  * Restarting with stat
+2025-01-21 00:40:11,933 - WARNING:  * Debugger is active!
+2025-01-21 00:40:11,940 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:40:13,471 - INFO: 127.0.0.1 - - [05/Jan/2025 00:40:13] "GET /server_date?format=;ls HTTP/1.1" 200 -
+2025-01-21 00:40:15,062 - INFO: 127.0.0.1 - - [05/Jan/2025 00:40:15] "GET /server_date?format=;ls HTTP/1.1" 200 -
+2025-01-21 00:40:15,744 - INFO: 127.0.0.1 - - [05/Jan/2025 00:40:15] "GET /server_date?format=;ls HTTP/1.1" 200 -
+2025-01-21 00:41:52,592 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 00:41:52,672 - INFO:  * Restarting with stat
+2025-01-21 00:41:53,051 - WARNING:  * Debugger is active!
+2025-01-21 00:41:53,056 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:41:54,971 - INFO: 127.0.0.1 - - [05/Jan/2025 00:41:54] "GET /server_date?format=;ls HTTP/1.1" 200 -
+2025-01-21 00:42:37,781 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 00:42:37,838 - INFO:  * Restarting with stat
+2025-01-21 00:42:38,221 - WARNING:  * Debugger is active!
+2025-01-21 00:42:38,236 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:42:44,595 - INFO: 127.0.0.1 - - [05/Jan/2025 00:42:44] "GET /server_date?format=;ls HTTP/1.1" 200 -
+2025-01-21 00:42:55,746 - INFO: 127.0.0.1 - - [05/Jan/2025 00:42:55] "GET /server_date?format=;ls%20-al HTTP/1.1" 200 -
+2025-01-21 00:43:11,782 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 00:43:11,829 - INFO:  * Restarting with stat
+2025-01-21 00:43:12,182 - WARNING:  * Debugger is active!
+2025-01-21 00:43:12,188 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:43:13,514 - INFO: 127.0.0.1 - - [05/Jan/2025 00:43:13] "GET /server_date?format=;ls%20-al HTTP/1.1" 200 -
+2025-01-21 00:43:21,684 - INFO: 127.0.0.1 - - [05/Jan/2025 00:43:21] "GET /server_date?format=;ls HTTP/1.1" 200 -
+2025-01-21 00:43:24,229 - INFO: 127.0.0.1 - - [05/Jan/2025 00:43:24] "GET /server_date?format=;ls HTTP/1.1" 200 -
+2025-01-21 00:43:25,146 - INFO: 127.0.0.1 - - [05/Jan/2025 00:43:25] "GET /server_date?format=;ls HTTP/1.1" 200 -
+2025-01-21 00:43:25,297 - INFO: 127.0.0.1 - - [05/Jan/2025 00:43:25] "GET /server_date?format=;ls HTTP/1.1" 200 -
+2025-01-21 00:43:25,667 - INFO: 127.0.0.1 - - [05/Jan/2025 00:43:25] "GET /server_date?format=;ls HTTP/1.1" 200 -
+2025-01-21 00:43:25,831 - INFO: 127.0.0.1 - - [05/Jan/2025 00:43:25] "GET /server_date?format=;ls HTTP/1.1" 200 -
+2025-01-21 00:43:28,609 - INFO: 127.0.0.1 - - [05/Jan/2025 00:43:28] "GET /server_date?format=;ls HTTP/1.1" 200 -
+2025-01-21 00:43:40,525 - INFO: 127.0.0.1 - - [05/Jan/2025 00:43:40] "GET /server_date HTTP/1.1" 200 -
+2025-01-21 00:43:43,307 - INFO: 127.0.0.1 - - [05/Jan/2025 00:43:43] "GET /server_date HTTP/1.1" 200 -
+2025-01-21 00:43:43,844 - INFO: 127.0.0.1 - - [05/Jan/2025 00:43:43] "GET /server_date HTTP/1.1" 200 -
+2025-01-21 00:43:43,993 - INFO: 127.0.0.1 - - [05/Jan/2025 00:43:43] "GET /server_date HTTP/1.1" 200 -
+2025-01-21 00:43:44,159 - INFO: 127.0.0.1 - - [05/Jan/2025 00:43:44] "GET /server_date HTTP/1.1" 200 -
+2025-01-21 00:43:44,349 - INFO: 127.0.0.1 - - [05/Jan/2025 00:43:44] "GET /server_date HTTP/1.1" 200 -
+2025-01-21 00:43:44,522 - INFO: 127.0.0.1 - - [05/Jan/2025 00:43:44] "GET /server_date HTTP/1.1" 200 -
+2025-01-21 00:44:03,103 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 00:44:03,158 - INFO:  * Restarting with stat
+2025-01-21 00:44:03,519 - WARNING:  * Debugger is active!
+2025-01-21 00:44:03,525 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:44:05,869 - INFO: 127.0.0.1 - - [05/Jan/2025 00:44:05] "GET /server_date HTTP/1.1" 200 -
+2025-01-21 00:44:49,274 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 00:44:49,329 - INFO:  * Restarting with stat
+2025-01-21 00:44:49,695 - WARNING:  * Debugger is active!
+2025-01-21 00:44:49,701 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:44:52,313 - INFO: 127.0.0.1 - - [05/Jan/2025 00:44:52] "GET /server_date HTTP/1.1" 200 -
+2025-01-21 00:45:57,836 - INFO: 127.0.0.1 - - [05/Jan/2025 00:45:57] "GET /server_date HTTP/1.1" 200 -
+2025-01-21 00:45:58,687 - INFO: 127.0.0.1 - - [05/Jan/2025 00:45:58] "GET /server_date HTTP/1.1" 200 -
+2025-01-21 00:46:21,400 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 00:46:21,476 - INFO:  * Restarting with stat
+2025-01-21 00:46:21,855 - WARNING:  * Debugger is active!
+2025-01-21 00:46:21,861 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:46:22,881 - INFO: 127.0.0.1 - - [05/Jan/2025 00:46:22] "GET /server_date HTTP/1.1" 200 -
+2025-01-21 00:47:10,649 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 00:47:10,719 - INFO:  * Restarting with stat
+2025-01-21 00:47:11,091 - WARNING:  * Debugger is active!
+2025-01-21 00:47:11,097 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:47:12,635 - INFO: 127.0.0.1 - - [05/Jan/2025 00:47:12] "GET /server_date HTTP/1.1" 200 -
+2025-01-21 00:47:34,578 - INFO: 127.0.0.1 - - [05/Jan/2025 00:47:34] "GET /server_date?format=";ls%20-al HTTP/1.1" 200 -
+2025-01-21 00:48:03,053 - INFO: 127.0.0.1 - - [05/Jan/2025 00:48:03] "GET /server_date?format=";ls%20-al;" HTTP/1.1" 200 -
+2025-01-21 00:48:26,278 - INFO: 127.0.0.1 - - [05/Jan/2025 00:48:26] "GET /server_date?format=%Y";ls%20-al;" HTTP/1.1" 200 -
+2025-01-21 00:48:54,057 - INFO: 127.0.0.1 - - [05/Jan/2025 00:48:54] "GET /server_date?format=%Y";ls%20-al;echo%20" HTTP/1.1" 200 -
+2025-01-21 00:49:15,232 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 00:49:15,282 - INFO:  * Restarting with stat
+2025-01-21 00:49:15,639 - WARNING:  * Debugger is active!
+2025-01-21 00:49:15,645 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:49:28,863 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 00:49:28,925 - INFO:  * Restarting with stat
+2025-01-21 00:49:29,457 - WARNING:  * Debugger is active!
+2025-01-21 00:49:29,465 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:50:45,721 - DEBUG: Incoming login request GET -> ImmutableMultiDict([]) 
+2025-01-21 00:50:45,728 - INFO: 127.0.0.1 - - [05/Jan/2025 00:50:45] "GET /login HTTP/1.1" 200 -
+2025-01-21 00:50:51,361 - DEBUG: Incoming login request POST -> ImmutableMultiDict([('username', 'titi'), ('password', 'toto')]) 
+2025-01-21 00:50:51,418 - INFO: 127.0.0.1 - - [05/Jan/2025 00:50:51] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-01-21 00:50:51,472 - INFO: 127.0.0.1 - - [05/Jan/2025 00:50:51] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-21 00:50:51,473 - INFO: 127.0.0.1 - - [05/Jan/2025 00:50:51] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-21 00:50:51,495 - INFO: 127.0.0.1 - - [05/Jan/2025 00:50:51] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=02gMQSGJujlLtW6KAZXr HTTP/1.1" 200 -
+2025-01-21 00:50:51,509 - INFO: 127.0.0.1 - - [05/Jan/2025 00:50:51] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-21 00:51:27,581 - INFO: 127.0.0.1 - - [05/Jan/2025 00:51:27] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-21 00:51:33,441 - DEBUG: Incoming login request GET -> ImmutableMultiDict([]) 
+2025-01-21 00:51:33,442 - INFO: 127.0.0.1 - - [05/Jan/2025 00:51:33] "GET /login HTTP/1.1" 200 -
+2025-01-21 00:51:49,137 - DEBUG: Incoming login request POST -> ImmutableMultiDict([('username', 'toto'), ('password', 'titi')]) 
+2025-01-21 00:51:49,171 - INFO: 127.0.0.1 - - [05/Jan/2025 00:51:49] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-01-21 00:51:49,209 - INFO: 127.0.0.1 - - [05/Jan/2025 00:51:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-21 00:51:49,224 - INFO: 127.0.0.1 - - [05/Jan/2025 00:51:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-21 00:51:49,246 - INFO: 127.0.0.1 - - [05/Jan/2025 00:51:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=02gMQSGJujlLtW6KAZXr HTTP/1.1[0m" 304 -
+2025-01-21 00:51:49,266 - INFO: 127.0.0.1 - - [05/Jan/2025 00:51:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-21 00:53:01,497 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-01-21 00:53:01,497 - INFO: [33mPress CTRL+C to quit[0m
+2025-01-21 00:53:01,500 - INFO:  * Restarting with stat
+2025-01-21 00:53:02,203 - WARNING:  * Debugger is active!
+2025-01-21 00:53:02,209 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:53:06,567 - DEBUG: Incoming login request GET -> ImmutableMultiDict([]) 
+2025-01-21 00:53:06,581 - INFO: 127.0.0.1 - - [05/Jan/2025 00:53:06] "GET /login HTTP/1.1" 200 -
+2025-01-21 00:53:12,260 - DEBUG: Incoming login request POST -> ImmutableMultiDict([('username', 'toto'), ('password', 'tata')]) 
+2025-01-21 00:53:12,333 - INFO: 127.0.0.1 - - [05/Jan/2025 00:53:12] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-01-21 00:53:12,398 - INFO: 127.0.0.1 - - [05/Jan/2025 00:53:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-21 00:53:12,398 - INFO: 127.0.0.1 - - [05/Jan/2025 00:53:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-21 00:53:12,422 - INFO: 127.0.0.1 - - [05/Jan/2025 00:53:12] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=hLqvsqH19hKC2rizDrAZ HTTP/1.1" 200 -
+2025-01-21 00:53:12,440 - INFO: 127.0.0.1 - - [05/Jan/2025 00:53:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-21 00:55:25,617 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 00:55:25,692 - INFO:  * Restarting with stat
+2025-01-21 00:55:26,440 - WARNING:  * Debugger is active!
+2025-01-21 00:55:26,446 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:55:30,694 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-01-21 00:55:30,694 - INFO: [33mPress CTRL+C to quit[0m
+2025-01-21 00:55:30,695 - INFO:  * Restarting with stat
+2025-01-21 00:55:31,311 - WARNING:  * Debugger is active!
+2025-01-21 00:55:31,317 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 00:55:34,430 - DEBUG: Incoming login request GET -> ImmutableMultiDict([]) 
+2025-01-21 00:55:34,446 - INFO: 127.0.0.1 - - [05/Jan/2025 00:55:34] "GET /login HTTP/1.1" 200 -
+2025-01-21 00:55:42,172 - DEBUG: Incoming login request POST -> ImmutableMultiDict([('username', 'toto'), ('password', 'titi')]) 
+2025-01-21 00:55:42,241 - INFO: 127.0.0.1 - - [05/Jan/2025 00:55:42] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-01-21 00:55:42,309 - INFO: 127.0.0.1 - - [05/Jan/2025 00:55:42] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-21 00:55:42,309 - INFO: 127.0.0.1 - - [05/Jan/2025 00:55:42] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-21 00:55:42,331 - INFO: 127.0.0.1 - - [05/Jan/2025 00:55:42] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=XVT8QxSHdG8sm1bqmqgR HTTP/1.1" 200 -
+2025-01-21 00:55:42,348 - INFO: 127.0.0.1 - - [05/Jan/2025 00:55:42] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-21 01:01:45,904 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 01:01:45,977 - INFO:  * Restarting with stat
+2025-01-21 01:01:46,708 - WARNING:  * Debugger is active!
+2025-01-21 01:01:46,725 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 01:04:14,228 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/db_functions.py', reloading
+2025-01-21 01:04:14,274 - INFO:  * Restarting with stat
+2025-01-21 01:04:14,997 - WARNING:  * Debugger is active!
+2025-01-21 01:04:15,004 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 01:05:39,733 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 01:05:39,794 - INFO:  * Restarting with stat
+2025-01-21 01:05:40,538 - WARNING:  * Debugger is active!
+2025-01-21 01:05:40,544 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 01:06:38,008 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 01:06:38,065 - INFO:  * Restarting with stat
+2025-01-21 01:06:38,804 - WARNING:  * Debugger is active!
+2025-01-21 01:06:38,810 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 01:07:13,310 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 01:07:13,368 - INFO:  * Restarting with stat
+2025-01-21 01:07:14,114 - WARNING:  * Debugger is active!
+2025-01-21 01:07:14,125 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 01:08:29,362 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 01:08:29,406 - INFO:  * Restarting with stat
+2025-01-21 01:08:30,129 - WARNING:  * Debugger is active!
+2025-01-21 01:08:30,136 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 01:09:10,915 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 01:09:10,972 - INFO:  * Restarting with stat
+2025-01-21 01:09:11,684 - WARNING:  * Debugger is active!
+2025-01-21 01:09:11,693 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 01:09:40,991 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/app.py', reloading
+2025-01-21 01:09:41,074 - INFO:  * Restarting with stat
+2025-01-21 01:09:41,782 - WARNING:  * Debugger is active!
+2025-01-21 01:09:41,788 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 01:10:23,709 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/db_functions.py', reloading
+2025-01-21 01:10:23,781 - INFO:  * Restarting with stat
+2025-01-21 01:10:24,522 - WARNING:  * Debugger is active!
+2025-01-21 01:10:24,531 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 01:12:02,985 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/db_functions.py', reloading
+2025-01-21 01:12:03,033 - INFO:  * Restarting with stat
+2025-01-21 01:12:03,786 - WARNING:  * Debugger is active!
+2025-01-21 01:12:03,800 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 01:12:40,429 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/db_functions.py', reloading
+2025-01-21 01:12:40,472 - INFO:  * Restarting with stat
+2025-01-21 01:12:41,200 - WARNING:  * Debugger is active!
+2025-01-21 01:12:41,207 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 01:13:02,078 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/db_functions.py', reloading
+2025-01-21 01:13:02,136 - INFO:  * Restarting with stat
+2025-01-21 01:13:02,823 - WARNING:  * Debugger is active!
+2025-01-21 01:13:02,830 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 01:13:23,683 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns/db_functions.py', reloading
+2025-01-21 01:13:23,739 - INFO:  * Restarting with stat
+2025-01-21 01:13:24,437 - WARNING:  * Debugger is active!
+2025-01-21 01:13:24,444 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 01:14:56,574 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/users_report.py', reloading
+2025-01-21 01:14:56,642 - INFO:  * Restarting with stat
+2025-01-21 01:14:57,352 - WARNING:  * Debugger is active!
+2025-01-21 01:14:57,359 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 01:16:10,520 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns_report.py', reloading
+2025-01-21 01:16:10,568 - INFO:  * Restarting with stat
+2025-01-21 01:16:11,314 - WARNING:  * Debugger is active!
+2025-01-21 01:16:11,319 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 01:17:35,943 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns_report.py', reloading
+2025-01-21 01:17:35,992 - INFO:  * Restarting with stat
+2025-01-21 01:17:36,751 - WARNING:  * Debugger is active!
+2025-01-21 01:17:36,757 - INFO:  * Debugger PIN: 133-038-024
+2025-01-21 01:17:54,483 - INFO:  * Detected change in '/Users/etienne_o/PycharmProjects/bachelorCertSc2025/vulns_report.py', reloading
+2025-01-21 01:17:54,537 - INFO:  * Restarting with stat
+2025-01-21 01:17:55,251 - WARNING:  * Debugger is active!
+2025-01-21 01:17:55,257 - INFO:  * Debugger PIN: 133-038-024

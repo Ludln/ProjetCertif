@@ -1,0 +1,23 @@
+<!-- static/500.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erreur 500 - Serveur interne</title>
+</head>
+<body>
+    <h1>Erreur 500 - Serveur interne</h1>
+    <p>Une erreur interne du serveur s'est produite. Veuillez nous excuser pour le désagrément.</p>
+
+    {% if error_details %}
+        <h2>Détails de l'erreur :</h2>
+        <pre>{{ error_details }}</pre>
+    {% endif %}
+
+    {% if stack_trace %}
+        <h2>Stack Trace :</h2>
+        <pre>{{ stack_trace }}</pre>
+    {% endif %}
+</body>
+</html>
